@@ -54,7 +54,7 @@ export default function NewIncident() {
           </Link>
         </section>
 
-        <form>
+        <form onSubmit={handleNewIncident}>
           <input 
             placeholder="Título do caso"
             value={title}
